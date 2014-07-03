@@ -1,0 +1,60 @@
+package com.me.keithstetris;
+
+import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
+import com.badlogic.gdx.math.Vector2;
+
+// add the final positions of old blocks to this class
+// render each frame BEFORE the current block
+public class FinishedBlocks {
+	
+	private boolean[][] bg;
+	private Vector2[][] backgroundPosition;
+	private float length;
+			
+	public FinishedBlocks (float length) {
+		
+		bg = new boolean[10][20];
+		backgroundPosition = new Vector2[10][20];
+		this.length = length;
+		
+	}
+	
+	private int count = 0;
+	
+	// add used blocks to the background
+	public void addNewBlock(Vector2[][] blockPosition, boolean[][] shape){
+		
+		for (int x=0;x<4;x++)
+			for (int y=0;y<4;y++)
+				if (shape[x][y]){
+					bg[(int)(blockPosition[x][y].x/length)][(int)(blockPosition[x][y].y/length)] = true;
+				}
+		
+	}
+	
+	// check if a line is made
+	public void checkLine () {
+		
+		// if a line is made (inside if), delete it
+		
+		if (1==0) deleteLine();
+		
+	}
+	
+	// delete completed line, shift everything down
+	public void deleteLine(){
+		
+	}
+	
+	// render all background blocks
+	public void renderBlocks(ShapeRenderer renderer, float pixelsInOneMeter) {
+		
+		for (int x=0;x<10;x++)
+			for (int y=0;y<20;y++)
+				if (bg[x][y] == true){
+					renderer.rect(x*length, y*length, length, length);
+				}
+		
+	}
+	
+}
