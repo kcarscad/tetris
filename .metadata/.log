@@ -7174,3 +7174,47 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product adtproduct -
 
 !ENTRY org.eclipse.ui 2 2 2014-07-03 15:09:56.722
 !MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+!SESSION 2014-09-18 17:12:14.415 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product adtproduct -keyring /Users/keithcarscadden/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product adtproduct -keyring /Users/keithcarscadden/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.equinox.app 0 0 2014-09-18 17:12:16.118
+!MESSAGE Product adtproduct could not be found.
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-18 17:14:08.886
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2014-09-18 17:14:09.513
+!MESSAGE Unable to find Action Set: com.google.gdt.eclipse.core.actionSet
+
+!ENTRY org.eclipse.ui 4 4 2014-09-18 17:14:09.513
+!MESSAGE Unable to find Action Set: org.eclipse.wb.core.ui.actionset
+
+!ENTRY org.eclipse.ui 2 2 2014-09-18 17:15:24.945
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+!SESSION 2014-09-18 17:15:30.736 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product adtproduct -keyring /Users/keithcarscadden/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product adtproduct -keyring /Users/keithcarscadden/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.equinox.app 0 0 2014-09-18 17:15:31.515
+!MESSAGE Product adtproduct could not be found.
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-18 17:15:34.932
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2014-09-18 17:15:35.463
+!MESSAGE Unable to find Action Set: com.google.gdt.eclipse.core.actionSet
+
+!ENTRY org.eclipse.ui 4 4 2014-09-18 17:15:35.463
+!MESSAGE Unable to find Action Set: org.eclipse.wb.core.ui.actionset
+
+!ENTRY org.eclipse.ui 2 2 2014-09-18 17:23:38.770
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
